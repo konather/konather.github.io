@@ -1,0 +1,223 @@
+h1{
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-size: 2.5em;	
+}
+
+h2{
+	text-align: center;
+	padding-right: 25px;
+	font-family: 'Cinzel', serif;
+	padding-top: 50px;
+}
+
+h3{
+	padding-right: 25px;
+	font-family: 'Cinzel', serif;
+	padding-top: 25px;
+}
+
+
+ 
+body{
+background: #ADADAA;
+font-family: 'Arvo', serif;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+header{
+	background-image: url("tuba.png");
+	margin-top: -15px;
+	height: 150px;
+	border: solid 5px black;
+}
+
+#nav {
+	text-align: center;
+	 margin-top: 44px;
+	}
+
+#navbar {
+  text-align: center;
+  display: inline;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: white;
+  font-size: 1.2em;
+  
+ 
+}
+ul li {
+  display: inline-block;
+  position: relative;
+  padding: 13px 20px;
+  background: black;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #555;
+  color: #fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 171px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -moz-transition: opacity 0.2s;
+  font-family: Dotum;
+  font-size: .9em;
+}
+
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+  border-top: solid 1px black;
+}
+ul li ul li:hover { background: #666; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#homepage{
+	margin-top: 40px;
+	font-size: 1.4em;
+	text-align: center;
+	
+}
+
+#bjulogo{
+	text-align: center;
+	margin-top: 30px;
+}
+
+#brasspic{
+	text-align: center; 
+}
+
+#privatelessoninfo{
+	margin-top: -60px;
+	font-size: 1.4em;
+}
+
+#nonmajorsinfo{
+	text-align: center;
+	font-family: 'Arvo', serif;
+	font-size: 1.3em;
+}
+
+#minorsinfo{
+
+	font-family: 'Arvo', serif;
+	 text-align: left;
+	 margin-left: 17.45%;
+
+	
+}
+
+#appendices{
+	margin-top: -120px;
+	text-align: center;
+}
+
+#calendarwords{
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#calendar{
+	text-align: center;
+}
+
+
+#sundayrecitals{
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#concertsss{
+	text-align: center;
+	font-size: 1.3em;
+}
+
+
+#contestsss{
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#BruceCox{
+	margin-left: 60%;
+	padding-right: 4em;
+}
+
+#brucepic{
+	margin-top: -330px;
+	margin-left: 90px;
+}
+
+#MarkFrederick{
+	margin-left: 60%;
+	padding-right: 4em;
+	margin-top: 50px;
+}
+
+#markpic{
+	margin-top: -230px;
+	margin-left: 90px;
+}
+
+#PaulJantz{
+	margin-left: 60%;
+	padding-right: 4em;
+	margin-top: 50px;
+}
+
+#paulpic{
+	margin-top: -240px;
+	margin-left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

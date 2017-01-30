@@ -1,0 +1,102 @@
+
+
+body {
+		background-image: url("Space1.png");
+		
+}
+h1{ 
+	text-align: center;
+	font-family: 'Star Jedi', arial;
+	font-size: 4em;
+	color: white;
+}
+
+h2{
+	font-size: 4em;
+	font-family: 'Star Jedi', arial;
+	text-align: center;
+	margin-top: -1.4em;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#nav {
+text-align:center;
+}
+
+ul {
+  text-align: center;
+  margin: 0;
+  display: inline;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: white;
+  font-family: 'Star Jedi Hollow';
+  font-size: 1.2em;
+}
+ul li {
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: black;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #555;
+  color: #fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 61px;
+  left: 0;
+  width: 171px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  font-family: Dotum;
+  font-size: .9em;
+}
+
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #666; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+	
+p {
+	padding-top: .5em;
+	padding-left: 4em;
+	padding-right: 4em;
+	font-size: 1.18em;
+	color: white;
+	font-family: Dotum;
+}
+
+video{
+		padding-bottom: 2em;
+}
+
